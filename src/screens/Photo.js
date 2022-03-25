@@ -7,7 +7,7 @@ const Photo = ({route}) => {
 
     return (
         <View>
-            <Image style={{width: '100%', height: '100%'}} source={{uri: photo.urls.regular}}/>
+            <Image style={{width: '100%', height: '100%'}} source={{uri: photo.urls.raw}}/>
         </View>
     );
 };
